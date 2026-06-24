@@ -6,7 +6,16 @@ import 'package:flutter_svg/flutter_svg.dart';
 class Assets {
   Assets._();
 
-  static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const AssetGenImage splashLogo = AssetGenImage(
+    'assets/images/png/splashLogo.png',
+  );
+  static const $AssetsAssetsGen assets = $AssetsAssetsGen();
+}
+
+class $AssetsAssetsGen {
+  const $AssetsAssetsGen();
+
+  final $AssetsImagesGen images = const $AssetsImagesGen();
 }
 
 class $AssetsImagesGen {
@@ -19,6 +28,12 @@ class $AssetsImagesGen {
 class $AssetsPngGen {
   const $AssetsPngGen();
 
+  final AssetGenImage facebook = const AssetGenImage(
+    'assets/images/png/facebook.png',
+  );
+  final AssetGenImage google = const AssetGenImage(
+    'assets/images/png/google.png',
+  );
   final AssetGenImage onboardOne = const AssetGenImage(
     'assets/images/png/onboardOne.png',
   );
@@ -27,6 +42,12 @@ class $AssetsPngGen {
   );
   final AssetGenImage onboardTwo = const AssetGenImage(
     'assets/images/png/onboardTwo.png',
+  );
+  final AssetGenImage splashLogo = const AssetGenImage(
+    'assets/images/png/splashLogo.png',
+  );
+  final AssetGenImage splashScreen = const AssetGenImage(
+    'assets/images/png/splashScreen.png',
   );
 }
 
@@ -40,7 +61,6 @@ class $AssetsSvgGen {
   final SvgGenImage profile = const SvgGenImage(
     'assets/images/svg/Profile.svg',
   );
-  final SvgGenImage logo = const SvgGenImage('assets/images/svg/logo.svg');
   final SvgGenImage secondLogo = const SvgGenImage(
     'assets/images/svg/secondLogo.svg',
   );

@@ -1,5 +1,5 @@
-import 'dart:ui';
-
+import 'package:eventhub/core/appColours/AppColours.dart';
+import 'package:flutter/material.dart';
 abstract class AppTextStyles {
   static final TextStyle fontStyle22 = TextStyle(
     fontSize: 22,
@@ -17,4 +17,14 @@ abstract class AppTextStyles {
     fontSize: 16,
     fontFamily: "Manrope-Medium",
   );
+  static final TextStyle fontStyle24 = TextStyle(
+    fontSize: 24,
+    fontFamily: "Manrope-Medium",
+  );
+  static final TextStyle fontStyle14 = TextStyle(
+    fontSize: 14,
+    fontFamily: "Manrope-Medium",
+    color: AppColours.greyColour
+  );
+
 }
