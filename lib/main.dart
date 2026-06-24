@@ -1,5 +1,7 @@
 import 'package:eventhub/core/appColours/AppColours.dart';
-import 'package:eventhub/presentation/SplashScreen.dart';
+import 'package:eventhub/features/auth/presentation/ui/loginScreen.dart';
+import 'package:eventhub/route/AppRoute.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,14 +14,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        initialRoute: '/',
       title: 'Flutter Demo',
       theme: ThemeData(
         useMaterial3: true,
         fontFamily: "Manrope",
+
         scaffoldBackgroundColor: AppColours.backgroundColour,
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:Splashscreen()
+        onGenerateRoute:AppRoute().onGenarate,
+
     );
   }
 }
