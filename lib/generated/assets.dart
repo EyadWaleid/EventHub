@@ -28,6 +28,9 @@ class $AssetsImagesGen {
 class $AssetsPngGen {
   const $AssetsPngGen();
 
+  final AssetGenImage eventImage = const AssetGenImage(
+    'assets/images/png/eventImage.png',
+  );
   final AssetGenImage facebook = const AssetGenImage(
     'assets/images/png/facebook.png',
   );
