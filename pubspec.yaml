@@ -36,6 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.3.0
   flutter_native_splash: ^2.4.8
+  dio: ^5.9.2
+  get_it: ^9.2.1
+  dartz: ^0.10.1
+  shared_preferences:
+  hive_flutter: ^1.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

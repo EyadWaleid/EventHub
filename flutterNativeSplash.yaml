@@ -1,9 +1,11 @@
 flutter_native_splash:
   color: "#FFFFFF"
-  image: assets/images/png/splashScreen.png
+  image: assets/images/png/eventhub_launcher_standard_1024_transparent.png
+
   android: true
   ios: true
+  web: false
+
   android_12:
     color: "#FFFFFF"
-    image: assets/images/png/splashScreen.png
-  web: false
+    image: assets/images/png/eventhub_launcher_android12_1152_transparent.png
