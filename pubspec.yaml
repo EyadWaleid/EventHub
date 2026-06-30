@@ -41,6 +41,9 @@ dependencies:
   dartz: ^0.10.1
   shared_preferences:
   hive_flutter: ^1.1.0
+  flutter_bloc:
+  equatable:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
